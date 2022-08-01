@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <h1 id=main-header>Application
+        <style>
+            #main-header{
+                background-color: blue;
+                color:white;
+            padding:10px
+            }
+            #main-footer{
+                text-align: center;
+            }
+        </style>
+    </h1>
+    
+</head>
+<body>
+    <form option="process.php" method="post">
+    <div>
+        <label>First Name</label>
+        <input type="text" name=firstName placeholder="Enter your first name">
+       </div>
+        <br>
+        <div>
+        <label>Last Name</label>
+        <input type="text" name=lastName placeholder="Enter your first name">
+        </div>
+        <br>
+        <div>
+        <label>Email</label>
+        <input type="email" name=email placeholder="Enter your email address">
+        </div>
+        <br>
+        <div>
+        <label>Gender</label>
+        <select name="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+        </div>
+        <br>
+        <div>
+        <label>Date of birth</label>
+        <input type="date" name=date >
+        </div>
+        <br>
+        <div>
+        <label>Message</label>
+        <textarea name=message placeholder="Enter your message here"></textarea>
+     </div>
+    </form>
+    <br>
+<div>
+    <button>Click Me</button>
+    </div>
+<br>
+<div>
+    <a href="index.html">Home</a>
+<br>
+<a href="About us.html">About</a>
+<br>
+<a href="Application.html">Application</a>
+<br>
+<a href="http://oandoaccess.com">Contact</a>
+<p>
+<footer id="main-footer">
+    Copyright &copy; 2022 Oando access
+</footer>
+</p>
+</body>
+</html>
